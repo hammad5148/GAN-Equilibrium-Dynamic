@@ -1,0 +1,92 @@
+[
+  {
+    "config": "vanilla_adam",
+    "dataset": "FashionMNIST_balanced",
+    "ehs": 0.7017251892297018,
+    "balance_score": 0.16667372236649194,
+    "mode_coverage": 1.0,
+    "stability_score": 0.7586153625987713,
+    "spectral_health": 1.0
+  },
+  {
+    "config": "vanilla_adam_cifar10",
+    "dataset": "CIFAR10",
+    "ehs": 0.7539936713384322,
+    "balance_score": 0.362043172121048,
+    "mode_coverage": 1.0,
+    "stability_score": 0.7269035985105886,
+    "spectral_health": 1.0
+  },
+  {
+    "config": "vanilla_adam_imb_fmnist",
+    "dataset": "FashionMNIST_imbalanced",
+    "ehs": 0.7417833824992202,
+    "balance_score": 0.29295405248800915,
+    "mode_coverage": 0.9666666666666667,
+    "stability_score": 0.819485833764087,
+    "spectral_health": 1.0
+  },
+  {
+    "config": "vanilla_negative_momentum",
+    "dataset": "FashionMNIST_balanced",
+    "ehs": 0.7711010036977609,
+    "balance_score": 0.37411807974179584,
+    "mode_coverage": 1.0,
+    "stability_score": 0.7943278988761101,
+    "spectral_health": 1.0
+  },
+  {
+    "config": "vanilla_optimistic_adam",
+    "dataset": "FashionMNIST_balanced",
+    "ehs": 0.7479002536899069,
+    "balance_score": 0.2913546860218048,
+    "mode_coverage": 1.0,
+    "stability_score": 0.8024692394168271,
+    "spectral_health": 1.0
+  },
+  {
+    "config": "wgan_gp_adam",
+    "dataset": "FashionMNIST_balanced",
+    "ehs": 0.7317071661547395,
+    "balance_score": 0.19565063474389413,
+    "mode_coverage": 1.0,
+    "stability_score": 0.8650598786578563,
+    "spectral_health": 1.0
+  },
+  {
+    "config": "wgan_gp_adam_cifar10",
+    "dataset": "CIFAR10",
+    "ehs": 0.6257953946863801,
+    "balance_score": 7.406060228050866e-09,
+    "mode_coverage": 1.0,
+    "stability_score": 0.62897696232281,
+    "spectral_health": 1.0
+  },
+  {
+    "config": "wgan_gp_adam_imb_fmnist",
+    "dataset": "FashionMNIST_imbalanced",
+    "ehs": 0.7114806950981895,
+    "balance_score": 0.2899100184440613,
+    "mode_coverage": 0.8666666666666667,
+    "stability_score": 0.8225384478248549,
+    "spectral_health": 1.0
+  },
+  {
+    "config": "wgan_gp_negative_momentum",
+    "dataset": "FashionMNIST_balanced",
+    "ehs": 0.6676607610193033,
+    "balance_score": 3.826360616206633e-06,
+    "mode_coverage": 1.0,
+    "stability_score": 0.8382980655555917,
+    "spectral_health": 1.0
+  },
+  {
+    "config": "wgan_gp_optimistic_adam",
+    "dataset": "FashionMNIST_balanced",
+    "ehs": 0.6927255325964112,
+    "balance_score": 0.12006410214878827,
+    "mode_coverage": 1.0,
+    "stability_score": 0.7835315097588734,
+    "spectral_health": 1.0
+  }
+]

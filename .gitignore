@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+*.egg-info/
+
+# Environments and local tooling
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Downloaded data and training state
+/data/
+/outputs/checkpoints/
+/outputs/samples/
+*.pth
+*.pt
+*.ckpt
+
+# Kaggle / notebook runtime files
+kaggle.json
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
